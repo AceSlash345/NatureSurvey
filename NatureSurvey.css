@@ -1,0 +1,50 @@
+<style>
+#title{
+  
+}
+#description{
+  font-size: 25px;
+}
+#survey-form{
+ text-align:left
+}
+#submit{
+  width:900px;
+  border-radius: 10px;
+  background-color:green;
+  color:white;
+  font-size:25px;
+}
+#name-label{
+  
+}
+#email-label{
+  
+}
+#number-label{
+  
+}
+body{
+  background-image: url("https://png.pngtree.com/png-vector/20190425/ourmid/pngtree-hand-drawn-cute-childish-forest-seamless-pattern-png-image_995015.jpg");
+}
+.foreground{
+  width:1000px;
+  height:1250px;
+  border-radius:25px;
+  margin-left:auto;
+  margin-right:auto;
+  border: 7px solid #609E5C;
+  background-color: rgba(163,163,163, 0.95);
+  font-family:Papyrus;
+}
+.center{
+  text-align:center;
+  opacity:1;
+}
+.down{
+  margin-down:-15px;
+}
+.line{
+  text-decoration:underline;
+}
+</style>
