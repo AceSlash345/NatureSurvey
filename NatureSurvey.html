@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<main class="foreground">
+ <div> 
+  <head>
+    <h1 id="title" class="center line">Nature Survey 
+    </h1>
+    <p id="description" class="center">This is a short survey to see how much you interact with nature. Enjoy!</p>
+  </head>
+   <form id="survey-form">
+    <body class="center">
+      <p> 
+        <label id="name-label" for="name">Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="John Doe" required><br><br>
+        <label id="email-label" for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="johndoe@email.com"required><br><br>
+        <label id="number-label" for="number">Age (optional):</label><br>
+        <input type="number" id="age" name="age" placeholder="N/A"><br>
+      </p>
+      <p>
+      Question 1: What would you do if you saw a stray dog walking around your neighborhood? <br>(Please choose one of the following.)<br><br>
+        <input type="radio"id="choice-1" name="question-1" value="choice-1">
+        <label for="choice-1">Walk up and attempt to pet it.</label><br>
+        <input type="radio"id="choice-2" name="question-1" value="choice-2">
+        <label for="choice-2">Try to take the dog to a vet.</label><br>
+        <input type="radio"id="choice-3" name="question-1" value="choice-3">
+        <label for="choice-3">Proceed as normal.</label><br>
+        <input type="radio"id="choice-4" name="question-1" value="choice-4">
+        <label for="choice-4">Completely avoid the dog.</label><br>
+      </p>
+      <p>
+      Question 2: How many months has it been since you last went to a local or national park? <br> (Please enter a number)<br>
+        <input type="number"id="number" name="question-2" min="0" max="48"placeholder="12" required>[Max: 48 months.]
+        <label for="number"></label><br>
+      </p>
+      <p>
+      Question 3: How likely are you to donate to a charity in regards to endangered animals.<br> (Please slide the point to determine your likeliness.)<br>
+        <br> Least Likely<input type="range"id="range" name="question-3" value="range" min="1" max="5">
+        <label for="choice-1">More Likely</label><br>
+      </p>
+      <p>
+      Question 4: What is your favorite animal?<br>
+        <select name="animal" id="dropdown">
+          <option name="dog">Dog</option> 
+          <option name="cat">Cat</option> 
+          <option name="bird">Bird</option> 
+          <option name="mouse">Mouse</option> 
+          <option name="wolf">Wolf</option> 
+          <option name="lion">Lion</option> 
+          <option name="turtle">Turtle</option> 
+          <option name="other">Other</option> 
+         <br><br><br> </select>
+      </p>
+      <p>
+        Question 5: Out of all the following listed species below, which ones did you know were endangered?<br>(Please select at least one.)<br>
+      <input type="checkbox" id="rhino" name="rhino" value="rhino">
+      <label for="rhino">Javan Rhinoceros</label><br>
+      <input type="checkbox" id="elephant" name="elephant" value=elephant>
+      <label for="elephant">Asian Elephants</label><br>
+      <input type="checkbox" id="gorilla" name="gorilla" value="gorilla">
+      <label for="gorilla">Mountain Gorilla</label><br>
+      <input type="checkbox" id="tiger" name="tiger" value="tiger">
+      <label for="tiger">Tiger</label><br>
+      <input type="checkbox" id="none" name="none" value="none">
+      <label for="none">None</label><br>
+      </p>
+      <p>
+        Additional Comments:<br>
+        <textarea id="survey" name="survey" row="4" column="50"></textarea><br>
+        Thank you so much for taking time out of your day to take this survey! Have a great rest of your day!
+      </p>
+        <p>
+      <input id="submit" class="center" type="submit" value="Submit">
+        </p>
+    </body>
+
+   </form>
+ </div> 
+</main>  
+<html>
